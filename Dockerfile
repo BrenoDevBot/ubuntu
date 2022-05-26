@@ -3,8 +3,8 @@ FROM ubuntu:20.04
 MAINTAINER Raul R., <ricea.raul2002@gmail.com>
 
 RUN         apt install curl \
-		&& apt install unzip
-		&& apt install tar
+		&& apt install unzip \
+		&& apt install tar \
 		&& apt update \
 		&& apt upgrade \
 		&& useradd -m -d /home/container container
