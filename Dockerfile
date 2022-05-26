@@ -9,6 +9,7 @@ RUN         apt install curl \
 		&& apt upgrade \
 		&& useradd -m -d /home/container container
 
+
 USER container
 ENV  USER container
 ENV  HOME /home/container
